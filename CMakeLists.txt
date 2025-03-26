@@ -28,4 +28,13 @@ add_library(
 target_link_libraries(opendrive-gd PRIVATE godot::cpp OpenDrive)
 
 
-install(TARGETS opendrive-gd DESTINATION .)
+install(DIRECTORY addons DESTINATION .)
+install(TARGETS opendrive-gd DESTINATION addons/opendrive)
+install(
+  FILES
+    LICENSE.txt
+    THIRD_PARTY.txt
+
+  DESTINATION
+    addons/opendrive
+)
