@@ -1,0 +1,9 @@
+[configuration]
+
+entry_symbol = "opendrive_gd_init"
+compatibility_minimum = "4.4"
+
+
+[libraries]
+
+linux.x86_64 = "libopendrive-gd.so"
