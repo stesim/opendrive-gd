@@ -2,6 +2,8 @@
 
 (Experimental) Godot plugin for importing OpenDRIVE (.xodr) files as scenes.
 
+![Screenshot](screenshot.png)
+
 > [!NOTE]
 > OpenDRIVE files are imported as Godot scenes containing meshes generated from the defined roads.
 > The plugin **does not** provide access to semantics like road trajectories, lanes and junctions.
